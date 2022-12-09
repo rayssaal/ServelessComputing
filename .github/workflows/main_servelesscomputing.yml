@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'ServelessComputing'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_618BE8F49DA340F89C2DDD9898AAAD22 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_107AF1126A4745D688B1473CA14D827F }}
           package: '*.jar'
