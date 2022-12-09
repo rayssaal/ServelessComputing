@@ -15,8 +15,6 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String sayHello() {
-		return "Olá 912, esse é o nosso servidor na nuvem. Criado com o objetivo de demonstrar um pouco melhor o nosso tema.
-		\n\nEquipe: Rayssa, Isabele, Vitoria, Julia e Jousi
-		\n\nObrigada pela atenção!";
+		return "Olá 912, esse é o nosso servidor na nuvem. Criado com o objetivo de demonstrar um pouco melhor o nosso tema.\n\nEquipe: Rayssa, Isabele, Vitoria, Julia e Jousi\n\nObrigada pela atenção!";
 	}
 }
